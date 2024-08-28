@@ -18,9 +18,9 @@
     "react-tiny-toast": "^2.0.1"
   },
   "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "tsc && vite build",
+    "dev": "next dev",
+    "start": "next start",
+    "build": "tsc && next build",
     "format": "prettier --write ./src/**/*.{ts,tsx,css}"
   },
   "devDependencies": {
@@ -29,8 +29,7 @@
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
     "prettier": "^3.2.1",
-    "typescript": "^5.4",
-    "vite": "^5.0.11"
+    "typescript": "^5.4"
   },
   "msw": {
     "workerDirectory": "public"
